@@ -1013,6 +1013,7 @@ typedef struct {
   schar_T foldopen;    ///< when fold is open
   schar_T foldclosed;  ///< when fold is closed
   schar_T foldsep;     ///< continuous fold marker
+  schar_T nofold;      ///< when there's no fold
   schar_T diff;
   schar_T msgsep;
   schar_T eob;

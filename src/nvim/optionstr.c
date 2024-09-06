@@ -2583,6 +2583,7 @@ static const struct chars_tab fcs_tab[] = {
   { &fcs_chars.foldopen,   "foldopen",  "-", NULL },
   { &fcs_chars.foldclosed, "foldclose", "+", NULL },
   { &fcs_chars.foldsep,    "foldsep",   "│", "|" },
+  { &fcs_chars.nofold,     "nofold",   NULL, NULL },
   { &fcs_chars.diff,       "diff",      "-", NULL },
   { &fcs_chars.msgsep,     "msgsep",    " ", NULL },
   { &fcs_chars.eob,        "eob",       "~", NULL },
